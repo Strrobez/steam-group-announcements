@@ -1,0 +1,21 @@
+{
+  "name": "steam-group-announcements",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Strrobez/steam-group-announcements.git",
+  "author": "Eoin <41481352+Strrobez@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "dependencies": {
+    "consola": "^3.2.3",
+    "cron": "^3.1.6",
+    "cron-parser": "^4.9.0",
+    "steamcommunity": "^3.48.2"
+  },
+  "devDependencies": {
+    "@types/steam-totp": "^2.1.2",
+    "@types/steamcommunity": "^3.43.6"
+  }
+}
